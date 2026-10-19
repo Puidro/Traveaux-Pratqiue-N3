@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description"
+          content="Présentation de Lionel Messi, sa carrière, ses qualités et ses principaux succès.">
+    <title>Lionel Messi - Présentation et carrière</title>
+</head>
+
+<body>
+
+    <header>
+        <img src="messi.jpg" alt="Portrait de Lionel Messi" width="150" height="150">
+        <h1>Lionel Messi</h1>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>Présentation</h2>
+            <p>Lionel Messi est un célèbre joueur de football argentin.</p>
+        </section>
+
+        <section>
+            <h2>Ses qualités</h2>
+            <ul>
+                <li>Excellent dribbleur</li>
+                <li>Très bon buteur</li>
+                <li>Grande vision du jeu</li>
+                <li>Nombreux trophées remportés</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Conversation</h2>
+
+            <p><strong>Utilisateur :</strong> Bonjour Messi, peux-tu me parler de ta carrière ?</p>
+            <p><strong>Messi :</strong> Bonjour ! Bien sûr, j'ai commencé ma carrière très jeune et j'ai joué dans plusieurs grandes équipes.</p>
+
+            <p><strong>Utilisateur :</strong> Quelle équipe as-tu rejoint quand tu étais jeune ?</p>
+            <p><strong>Messi :</strong> J'ai rejoint le FC Barcelone à un jeune âge et j'ai passé de nombreuses années dans ce club.</p>
+
+            <p><strong>Utilisateur :</strong> Quel est ton plus grand succès avec l'Argentine ?</p>
+            <p><strong>Messi :</strong> Mon plus grand succès avec l'Argentine est d'avoir remporté la Coupe du Monde 2022.</p>
+
+            <form action="#" method="post">
+                <label for="message">Votre message</label><br>
+                <textarea name="message" id="message" rows="4" cols="30"
+                          required maxlength="300"
+                          placeholder="Écrivez votre message..."></textarea>
+                <br><br>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+
+        <aside>
+            <table border="1">
+                <caption>Questions fréquentes</caption>
+                <thead>
+                    <tr>
+                        <th>Question</th>
+                        <th>Réponse</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Quel est le pays de Messi ?</td>
+                        <td>Il est argentin.</td>
+                    </tr>
+                    <tr>
+                        <td>Quel est son poste ?</td>
+                        <td>Attaquant.</td>
+                    </tr>
+                    <tr>
+                        <td>Dans quel club a-t-il joué jeune ?</td>
+                        <td>Le FC Barcelone.</td>
+                    </tr>
+                    <tr>
+                        <td>Quel grand titre a-t-il remporté avec l'Argentine ?</td>
+                        <td>La Coupe du Monde 2022.</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Votre avis</legend>
+
+                    <p>Notez cette page de 1 à 5 :</p>
+
+                    <input type="radio" id="note1" name="note" value="1" required>
+                    <label for="note1">1</label>
+
+                    <input type="radio" id="note2" name="note" value="2">
+                    <label for="note2">2</label>
+
+                    <input type="radio" id="note3" name="note" value="3">
+                    <label for="note3">3</label>
+
+                    <input type="radio" id="note4" name="note" value="4">
+                    <label for="note4">4</label>
+
+                    <input type="radio" id="note5" name="note" value="5">
+                    <label for="note5">5</label>
+
+                    <br><br>
+
+                    <label for="commentaire">Votre commentaire (facultatif)</label><br>
+                    <textarea id="commentaire" name="commentaire"
+                              rows="3" maxlength="200"
+                              placeholder="Écrivez votre commentaire..."></textarea>
+
+                    <br><br>
+                    <button type="submit">Envoyer mon avis</button>
+                </fieldset>
+            </form>
+        </aside>
+
+    </main>
+
+    <footer>
+        <p>Assistante Disponible 24h/24h.</p>
+    </footer>
+
+</body>
+</html>

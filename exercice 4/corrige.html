@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+
+<form method="post">
+
+    <label for="nom">Nom</label>
+    <input type="text" id="nom" name="nom">
+
+    <label for="prenom">Prénom</label>
+    <input type="text" id="prenom" name="prenom">
+
+    <label for="email">E-mail</label>
+    <input type="email" id="email" name="email">
+
+    <label for="mdp">Mot de passe</label>
+    <input type="password" id="mdp" name="mdp">
+
+    <p>Formule :</p>
+
+    <input type="radio" id="f1" name="formule" value="mensuelle">
+    <label for="f1">Mensuelle</label>
+
+    <input type="radio" id="f2" name="formule" value="annuelle">
+    <label for="f2">Annuelle</label>
+
+    <label for="ville">Ville</label>
+    <select id="ville" name="ville">
+        <option value="rabat">Rabat</option>
+        <option value="sale">Salé</option>
+    </select>
+
+    <label for="msg">Message</label>
+    <textarea id="msg" name="message"></textarea>
+
+    <button type="submit">Envoyer</button>
+
+</form>
+
+</body>
+</html>
